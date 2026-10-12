@@ -1,0 +1,68 @@
+88 ?- consult(['c:/Users/fatim/Desktop/simpsons.pl']).
+true.
+
+89 ?- father(homer, bart).
+true.
+
+90 ?- father(X, lisa).
+X = homer .
+
+91 ?- mother(marge, maggie).
+true.
+
+92 ?- mother(X, homer).
+X = mona.
+
+93 ?- son(bart, marge).
+true.
+
+94 ?- son(X, abraham).
+X = herb .
+
+95 ?- daughter(lisa, homer).
+true.
+
+96 ?- daughter(X, jackie).
+X = marge .
+
+97 ?- brother(bart, lisa).
+true .
+
+98 ?- brother(X, homer).
+X = herb .
+
+99 ?- sister(patty, selma).
+true .
+
+100 ?- sister(X, bart).
+X = lisa .
+
+101 ?- grandfather(clancy, bart).
+true .
+
+102 ?- grandfather(X, maggie).
+X = abraham .
+
+103 ?- aunt(selma, lisa).
+true .
+
+104 ?- aunt(X, bart).
+X = patty .
+
+105 ?- uncle(herb, bart).
+true .
+
+106 ?- uncle(X, maggie).
+X = herb .
+
+107 ?- cousin(ling, bart).
+true .
+
+108 ?- cousin(X, ling).
+X = bart .
+
+109 ?- ancestor(abraham, maggie).
+true .
+
+110 ?- ancestor(X, ling).
+X = selma .
